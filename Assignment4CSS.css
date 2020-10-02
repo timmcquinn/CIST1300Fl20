@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.myImage 
+{
+  	float: left;
+	margin-left: 125px;
+  	height: 250px;
+  	width: 250px;
+  	
+}
+.heading {
+	font-family: Veranda;
+  	float:left;
+	margin-left: 125
+		
+}
+.navLink
+{
+	padding-left: 235px;
+}
+	
+.navBar {
+  display: block;
+  margin-left: 250px;
+  margin-right: auto;
+  width: 50%;
+
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}	
+.centerStuff
+{
+	text-align: bottom;
+	font-size: 30;	
+}

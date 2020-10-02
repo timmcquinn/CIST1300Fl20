@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CIST 1300 Contact</title>
+<link rel="shortcut icon" href="favicon.ico" />
+	
+	<link href="/YOUR_PATH/favicon.ico" rel="icon" type="image/x-icon" />
+<style type="text/css">
+.contactForm {
+}
+</style>
+</head>
+
+<body>
+<h2>CIST 1300</h2>
+	
+	<form class="contactForm">
+ 	<form>
+
+
+	<fieldset>
+		<legend>Authorize here</legend>
+		<label for="fname">First name:</label><br>
+  		<input type="text" id="fname" name="fname"><br>
+		<label for="lname">Last name:</label><br>
+  		<input type="text" id="lname" name="lname">
+		<br>
+		
+	 </fieldset>
+  <br><br><br><br><br>
+</form>
+	<form>	
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label>
+		<br>
+	</form>	
+	<form>	
+	<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+		  <label for="vehicle1"> I have a bike</label><br>
+		  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+		  <label for="vehicle2"> I have a car</label><br>
+		  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+		  <label for="vehicle3"> I have a horse</label>
+		<br>
+	</form>	
+	
+	
+  <input type="submit">
+</form>	
+<p>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+    Checkbox</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+    Checkbox</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+    Checkbox</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_3">
+    Checkbox</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_4">
+    Checkbox</label>
+  <br>
+  <label>
+    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_5">
+    Checkbox</label>
+  <br>
+</p>
+<p>	
+	<a href="index2.html">Home</a>  ||
+	<a href="services.html">Services</a>  ||
+	<a href="contact.html">Contact</a>  ||	
+	<a href="team.html">Team</a>
+</p>	
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>	
+ <!-- 
+  Replace form-handler.php with URL where to send the form-data when the form is submitted
+  Goto http://w3c.github.io/html-reference/input.text.html#input.text for more information on all attributes that can be used with text input field
+-->
+<form method="post" action="form-handler.php">
+  <div>
+    <h4>Text Field</h4>
+    <label for="name">Name: <span class="required">*</span> </label>
+    <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus />
+  </div>
+  
+  <div>
+    <h4>Email Field</h4>
+    <label for="email">Email Address: <span class="required">*</span> </label>
+    <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+  </div>
+  
+  <div>
+    <h4>Password Field</h4>
+    <label for="password">New Password: <span class="required">*</span> </label>
+    <input type="password" id="password" name="password" value="" placeholder="" required="required" />
+  </div>
+  
+  <div>
+    <h4>Drop Down Menu</h4>
+    <label for="subject">Subject:</label>
+    <select id="subject" name="subject">
+      <option value="hello">Subject 1</option>
+      <option value="quote">Subject 2</option>
+      <option value="general">Subject 3</option>
+    </select>
+  </div>
+  
+  <div>
+    <h4>Text Area</h4>
+    <label for="message">Message: <span class="required">*</span> </label>
+    <textarea id="message" name="message" placeholder="Write your message here." required ></textarea>
+  </div>
+  
+  <div>
+    <h4>Radio Buttons</h4>
+    <label for="radio-choice-1">Choice 1</label>
+    <input type="radio" name="radio-choice" id="radio-choice-1" tabindex="2" value="choice-1">
+    <label for="radio-choice-2">Choice 2</label>
+    <input type="radio" name="radio-choice" id="radio-choice-2" tabindex="3" value="choice-2">
+  </div>
+  
+  <div>
+    <h4>Check Boxes</h4>
+    <label for="checkbox1">Choice 1:</label>
+    <input type="checkbox" name="checkbox1" id="checkbox1">
+    <label for="checkbox2">Choice 2:</label>
+    <input type="checkbox" name="checkbox2" id="checkbox2">
+  </div>
+  
+  <div>
+    <input type="submit" value="Submit" id="submit" />
+  </div>
+</form>
+	
+	<nav class="navigation">
+  <ul>
+    <li><a href="#"><span>Privacy</span></a></li>
+    <li><a href="#"><span>Sitemap</span></a></li>
+    <li><a href="#"><span>Newsletter</span></a></li>
+    <li class="account"><a href="#"><span>My Account</span></a></li>
+  </ul>
+		
+	<input type="button" value="Back" onclick="history.back()" />	
+	<!-- Goto http://w3c.github.io/html-reference/input.text.html#input.text for more information on all attributes that can be used with text input field -->
+<input type="text" placeholder="Placeholder text" />	
+</nav>
+	<a href="tel:1-234-567-8910">Call - 1-234-567-8910</a>
+
+<a href="sms:1-234-567-8910">Send a  SMS </a>
+	
+	<!-- SITEMAP -->
+<nav class="sitemap">
+  <ul>
+    <li><a href="#">Home</a>
+      <ul>
+        <li><a href="#"><span>Work</span></a>
+          <ul>
+            <li><a href="#"><span>Work item</span></a></li>
+            <li><a href="#"><span>Work item</span></a>
+              <ul>
+                <li><a href="#"><span>Work item</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#"><span>About</span></a>
+          <ul>
+            <li><a href="#"><span>Clients</span></a></li>
+            <li><a href="#"><span>Testimonials</span></a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span>Services</span></a>
+          <ul>
+            <li><a href="#"><span>Web Design</span></a></li>
+            <li><a href="#"><span>Web Development</span></a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span>Blog</span></a>
+          <ul>
+            <li><a href="#"><span>All posts</span></a></li>
+            <li><a href="#"><span>Web Design</span></a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span>Contact</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<!--// SITEMAP -->
+	
+</body>
+</html>
